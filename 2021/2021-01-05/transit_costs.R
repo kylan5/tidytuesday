@@ -37,6 +37,7 @@ plot <- transit_cost %>%
   theme(axis.title = element_blank(),
         axis.text.x = element_text(family = "Georgia", face = "bold", color = "#FBFAF5", size = 14),
         axis.text.y = element_blank(),
+        axis.ticks = element_blank(),
         legend.position = "none",
         panel.grid.major.y = element_blank(),
         panel.grid.minor = element_blank(),
