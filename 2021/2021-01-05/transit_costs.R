@@ -47,4 +47,4 @@ plot <- transit_cost %>%
         plot.subtitle = element_text(family = "Georgia", face = "bold", size = 20, color = "#f7f5fb"),
         plot.margin = margin(2, 2, 1, 2, unit = "cm"))
 
-ggsave("file_path.png", plot, width = 20, height = 12, dpi = 450)
+ggsave("file_path/scandinavian_transit_costs.png", plot, width = 20, height = 12, dpi = 450)
